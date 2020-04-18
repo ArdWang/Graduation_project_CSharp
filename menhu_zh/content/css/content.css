@@ -1,0 +1,112 @@
+﻿body { font-family:"宋体";
+}
+* { padding:0; margin:0;
+}
+#box { width:1000px; margin:0 auto;
+}
+   #box .head { height:30px; width:1000px; line-height:30px; font-size:12px; color:#827e7e; position:relative; background-color:#ccdcf2; 
+}
+    .head .h_left { position:absolute; left:20px; top:0; width:500px; height:30px;
+}
+.head .h_left1 { position:absolute; left:50px; top:0; width:500px; height:30px;
+}
+.h_left1 .hlzt1 { color:red;
+}
+.h_left1 .hzt1 { color:#111;
+}
+.h_left1 ul { width:500px; height:30px;
+}
+.h_left1 li { width:500px; height:30px; float:left; list-style-type:none;
+}
+    .h_left1 li a { color:#111; text-decoration:none;
+    }
+        .h_left1 li a:hover { color:red;
+        }
+.h_left ul { width:500px; height:30px;
+}
+.h_left li { width:160px; height:30px; float:left; list-style-type:none; font-size:12px;
+}
+.head .h_right { width:300px; height:30px; color:#827e7e; position:absolute; top:0; left:700px; line-height:30px; text-align:right;
+}
+.h_right a { text-decoration:none; color:#827e7e; font-size:12px;
+}
+    .h_right a:hover { text-decoration:underline; color:red;
+    }
+.wz1 { color:#000;
+}
+
+/*热点模块*/
+/*热点区块*/
+#box .redian { width:1000px; height:80px; background-color:#deeaf5; margin-top:10px;
+}
+.redian ul { width:1000px; height:80px;
+}
+.redian li { list-style-type:none;  float:left;
+}
+    .redian li.l1 { width:60px; font-size:20px; font-family:'Microsoft YaHei'; height:80px; line-height:80px; font-weight:bold; color:red; float:left; text-align:center; border-left:dashed 1px #827e7e;
+    }
+     .redian li.l4 { width:60px; font-size:20px; font-family:'Microsoft YaHei'; height:80px; line-height:80px; font-weight:bold; color:red; float:left; text-align:center; 
+    }
+    .redian li.l2 { width:85px; height:80px;
+    }
+    .redian li.l3 { width:60px; height:80px;
+    }
+     .redian li.l5 { width:165px; height:80px; margin-left:10px;
+    }
+        .redian li.l5 a {
+            color: #fff;
+        }
+      .redian li.l5 img{ width:165px; height:80px;
+    }
+     .redian li.l6 { width:185px; height:80px; margin-left:10px;
+    }
+        .redian li.l6 a { color:#fff;
+        }
+      .redian li.l6 img{ width:185px; height:80px;
+    }
+li.l2 a { text-decoration:none; color:#000; width:30px; height:26px; display:block; text-align:center; font-size:12px; float:left; line-height:26px; 
+}
+li.l2 a.a1 { text-decoration:none; color:#000; width:50px; height:26px; display:block; text-align:center; font-size:12px; float:left; line-height:26px; 
+}
+li.l3 a { text-decoration:none; color:#000; width:60px; height:26px; display:block; text-align:center; font-size:12px; float:left; line-height:26px; 
+}
+li.l2 a:hover { color:red; text-decoration:underline;
+}
+li.l3 a:hover { color:red; text-decoration:underline;
+}
+
+
+
+ 
+    #box .main { width:1000px; margin-top:20px; float:left;
+    }
+.main .m_left { width:600px; float:left;
+}
+.main .m_right { width:380px; float:left; margin-left:15px;
+}
+.m_right .r_top{ width:380px; height:30px; line-height:30px; font-size:12px;}
+.r_top ul{ width:380px; height:30px;}
+.r_top li{ list-style-type:none; width:100px; height:30px; float:left;}
+.r_top1{ width:380px; height:30px; line-height:30px; font-size:12px;}
+.r_top1 ul{ width:380px; height:30px;}
+.r_top1 li{ list-style-type:none; width:100px; height:30px; float:left;}
+/*底部制作*/
+#box .bottom { width:1000px; height:180px; border-top:2px solid #888; margin-top:20px; position:relative; float:left;
+}
+.bottom .b_top { width:800px; height:90px; position:absolute; top:20px; left:100px; line-height:30px; font-size:12px; text-align:center;
+}
+.b_top a { color:#333; text-decoration:none;
+}
+    .b_top a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+.b_con { width:370px; height:50px; position:absolute; top:115px; left:320px;
+}
+    .b_con img { width:100px; height:40px; margin-left:10px;
+    }
+    .b_con a { text-decoration:none; border:0; color:#fff;
+    }
+.main .call{ width:500px; height:400px; margin-left:50px; margin-top:30px; line-height:30px;}
+.call .clzt1{ font-size:14px; font-weight:bold;}
+.cal2 .clzt2{ font-size:12px; }

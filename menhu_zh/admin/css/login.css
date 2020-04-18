@@ -1,0 +1,62 @@
+﻿/*主页的制作*/
+table,td,tr,img,ul,li{ border-style: none;
+    border-width: 0px;
+    margin: 0;
+    padding: 0;
+   
+}
+/*body>div { margin-left:auto; margin-right:auto;}*/
+body { background-color:#E3EFFF;
+}
+#box { width:1000px; margin-left:auto; margin-right:auto; background-color:#7690FF; height:690px;
+}
+#top { width:980px; height:60px; margin-top:5px; font-size:12px; color:blue; line-height:20px; float:left; border-bottom:solid 4px #fff; padding-left:10px; padding-right:10px; padding-top:10px;
+}
+
+#middle{ width:1000px; float:left; height:500px;  margin-top:10px; border-bottom:solid 4px #fff;
+}
+/*登录部分*/
+    #middle #left { width:400px; height:300px; float:left; margin-top:40px; margin-left:20px;
+    }
+#left .top1 { width:400px; height:30px; font-size:14px; color:#fff; font-weight:bold; line-height:30px; text-indent:10px;
+}
+#left .main { width:380px; height:250px; font-size:12px; color:#fff; line-height:20px; padding:10px; position:absolute;
+}
+    #middle #login { width:300px; height:200px; border-radius:5px; position:relative; top:100px; background-color:#5C79F4; float:left; left:150px;
+    }
+#login .top2 { width:300px; height:30px; border-bottom:solid 2px #fff; line-height:28px; float:left; text-indent:10px; float:left;
+}
+#login .con1 { width:300px; height:168px; float:left;
+}
+.con1 table { width:98%; height:98%; float:left;
+}
+#login a { text-decoration:none; font-size:12px; font-family:'Microsoft YaHei'; color:Blue; 
+}
+    #login a:hover { text-decoration:underline; font-size:12px; font-family:'Microsoft YaHei'; color:red; 
+    }
+
+#bottom { width:960px; height:60px; float:left; line-height:20px; text-align:center; margin-top:10px; padding-left:20px; padding-right:20px; padding-top:10px; padding-bottom:10px; 
+}
+.zt1 { font-size:22px; font-weight:bold; color:#fff; font-family:'Microsoft YaHei';
+}
+.zt2 { font-size:12px; font-family:'Microsoft YaHei'; color:#fff;
+}
+.zt3 { font-size:16px; font-weight:bold; color:#fff; font-family:'Microsoft YaHei';
+}
+.zt4 { font-size:14px; font-family:'Microsoft YaHei'; color:#fff; font-weight:bold;
+}
+.zt5 { font-size:12px; font-family:'Microsoft YaHei'; color:#fff; font-weight:bold;
+}
+.zt6 { color:red;
+}
+
+/*此部分用于用户注册*/
+#middle #reg { width:600px; height:480px; margin-left:200px; margin-right:200px; margin-top:5px; background-color:#5C79F4;
+}
+#reg .top3 { width:600px; height:30px; line-height:30px; text-indent:20px; border-bottom:solid 2px #fff;
+}
+#reg .con1 { width:600px; height:450px; font-size:12px; color:blue;
+}
+.con1 table { width:98%; height:98%;
+}
+

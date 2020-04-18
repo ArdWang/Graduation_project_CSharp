@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin_admin"  %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="js/admin_mb.js"></script>
+    <link href="css/admin_mb.css" rel="stylesheet" />
+    <title>后台页面</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="box">
+        <div class="top">
+            <div class="t_top">
+                <asp:Button ID="btnhsy" runat="server" Text="后台首页" Width="70px" Height="30px" 
+                    BackColor="#3366CC" ForeColor="#FFFFCC" CssClass="btn" onclick="btnhsy_Click" CausesValidation="False" />&nbsp;&nbsp
+                <asp:Button ID="btnqsy" runat="server" Text="前台首页" Width="70px" Height="30px" BackColor="#3366CC" ForeColor="#FFFFCC" CssClass="btn" OnClick="btnqsy_Click" CausesValidation="False" /></div>
+        </div>
+        <div class="b_nav">
+            <div class="n_left">欢迎回来：<asp:Label ID="lbname" runat="server" Text=""></asp:Label>&nbsp;&nbsp;<asp:LinkButton
+                ID="lbexit" runat="server" onclick="lbexit_Click" CausesValidation="False">退出</asp:LinkButton></div>
+            <div id="n_right">
+                <ul>
+                    <li><a href="admin_zy.aspx">后台首页</a></li>
+                    <li><a href="#">资讯</a>
+                        <ul>
+                            <li><a href="admin_xw.aspx">新闻</a></li> 
+                            <li><a href="admin_xy.aspx">校园</a></li>
+                            <li><a href="admin_yl.aspx">娱乐</a></li>
+                            <li><a href="admin_ty.aspx">体育</a></li>
+                            <li><a href="admin_qc.aspx">汽车</a></li>
+                            <li><a href="admin_yx.aspx">游戏</a></li>
+                       </ul>
+                    </li>
+                    <li><a href="#">生活</a>
+                        <ul>
+                            <li><a href="admin_kj.aspx">科技</a></li> 
+                            <li><a href="admin_jk.aspx">健康</a></li>
+                            <li><a href="admin_ly.aspx">旅游</a></li>
+                            <li><a href="admin_sp.aspx">商城</a></li>
+                            <li><a href="admin_sx.aspx">时尚</a></li>
+                            <li><a href="admin_ms.aspx">美食</a></li>
+                       </ul>
+                    </li>
+                    <li><a href="#">电影</a>
+                        <ul>
+                            <li><a href="admin_dy.aspx">电影</a></li> 
+                            
+                       </ul>
+                    </li>
+                    <li><a href="#">互动</a>
+                        <ul>
+                            <li><a href="admin_sd.aspx">学习</a></li> 
+                        </ul>
+                    </li>
+                    <li><a href="#">评论</a>
+                        <ul>
+                            <li><a href="plnews_edit.aspx">新闻</a></li>
+                            <li><a href="plxy_edit.aspx">校园</a></li>
+                            <li><a href="plyl_edit.aspx">娱乐</a></li>
+                            <li><a href="plyx_edit.aspx">游戏</a></li>
+                            <li><a href="plty_edit.aspx">体育</a></li>
+                            <li><a href="plqc_edit.aspx">汽车</a></li>
+                            <li><a href="plkj_edit.aspx">科技</a></li>
+                            <li><a href="pljk_edit.aspx">健康</a></li> 
+                            <li><a href="plly_edit.aspx">旅游</a></li>
+                            <li><a href="plsx_edit.aspx">时尚</a></li>
+                            <li><a href="plms_edit.aspx">美食</a></li>
+                            <li><a href="plsd_edit.aspx">学习</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="m_left">
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+               
+                        </asp:ContentPlaceHolder>
+               
+            </div>
+            <div class="m_right">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+          
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="bottom">W蓝科技工作室&nbsp;|&nbsp;后台管理&nbsp;|&nbsp;技术支持<br/>Copyright© 2015　dqccc.com. All Rights Reserved</div>
+    </div>
+    </form>
+</body>
+</html>

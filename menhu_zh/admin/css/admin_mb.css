@@ -1,0 +1,49 @@
+﻿/*用了定位就不能用浮动千万记住*/
+body { font-family:"宋体"; background-color:#E3EFFF;
+}
+* { padding:0;     margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+#box{ width:1000px; margin:0 auto;  
+}
+    #box .top { width:1000px; height:50px; position:relative; line-height:50px; font-weight:bold; color:#4b68f1; background:url(../images/admin1.png) no-repeat left; 
+    }
+.top .t_top { width:300px; height:50px; line-height:50px; position:absolute; left:700px; top:0;
+}
+.t_top .btn { border-radius:5px; border:2px solid #3366CC;
+}
+#box .b_nav { width:1000px; height:40px; background-color:#3366CC; margin-top:10px; position:relative; 
+}
+.b_nav .n_left { width:200px; height:40px; line-height:40px; font-size:12px; position:absolute; left:30px; top:0; color:#fff;
+}
+.n_left a{color:#fff; text-decoration:none;}
+.n_left a:hover{ color:Red;}
+.b_nav  #n_right { width:770px; height:40px; font-size:14px; font-weight:bold; color:#fff; position:absolute; left:230px; top:0;
+}
+#n_right ul li { position:relative; list-style-type:none; float:left;
+    }
+        #n_right ul li a { display:block; width:100px; height:40px; line-height:40px; color:#fff; font-size:14px; font-weight:normal; text-align:center; text-decoration:none; font-weight:bold; 
+        }
+        #n_right ul li a:hover,#nav ul li.show a { background-color:#4b72f2; color:#fff; text-decoration:none; font-weight:bold; 
+        }
+       #n_right ul li ul { position:absolute; left:-9999px;
+        }
+            #n_right ul li ul li a { display:block; width:100px; height:30px; background-color:#3366CC; color:#fff; text-align:center; font-size:12px; line-height:30px; border-top:solid 1px #fff;
+            }
+        #n_right ul li.show ul { left:0px; 
+        }
+            #n_right ul li.show ul a:hover { background-color:#4b72f2; color:#ffffff; text-decoration:none; font-weight:bold;
+            }
+#box .main { width:1000px; margin-top:10px; float:left;
+}
+.main .m_left{ width:200px;  background-color:#fff;  float:left;
+}
+
+.M-left .l_con { width:200px; float:left; position:absolute; left:0; top:30px;
+}
+.main .m_right { width:780px; margin-left:20px; background-color:#fff; float:left;
+}
+#box .bottom { width:1000px; height:50px; line-height:25px; font-size:12px; color:#444; text-align:center; margin-top:10px; float:left;
+}
+

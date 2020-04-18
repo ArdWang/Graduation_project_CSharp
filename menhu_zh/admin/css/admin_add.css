@@ -1,0 +1,29 @@
+﻿.left { width:200px; height:500px;
+}
+
+    .left .l_top { height:30px; width:200px; font-size:14px; font-weight:bold; text-indent:10px; line-height:30px; border-bottom:solid 1px #999; color:#444;
+    }
+    .left .l_con { width:180px; height:450px; margin:10px;
+    }
+.l_con ul{ width:180px; height:450px;}
+.l_con li{ width:180px; float:left; height:30px; line-height:30px; list-style-type:none; font-size:12px; text-align:center; font-weight:bold; font-family:"宋体";}
+.l_con li a{ text-decoration:none; color:#555;}
+.l_con li a:hover{ color:Red;}
+.right { width:760px; height:480px; margin:10px;
+}
+.right .r_con{ width:760px;height:440px; margin-top:10px; font-size:12px; overflow:hidden; position:relative;}
+.right .r_top{ width:760px; height:30px; line-height:30px; font-size:12px; font-weight:bold; color:#555; border-bottom:1px solid #888;}
+
+/*内容发表*/
+.r_con .bt{ position:absolute; top:10px; left:30px; width:530px; height:80px;
+}
+.bt .bt_top { width:530px; height:30px; font-size:12px; font-weight:bold; line-height:30px; color:#333;
+}
+.bt .bt_con { width:530px; height:50px; font-size:12px; line-height:50px;
+}
+.r_con .nr { position:absolute; top:100px; left:30px; width:530px; height:200px; 
+}
+.nr .nr_top { width:530px; height:30px; font-size:12px; font-weight:bold; line-height:30px; color:#333;
+}
+.nr .nr_con { width:530px; height:170px; font-size:12px;
+}

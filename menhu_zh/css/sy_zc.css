@@ -1,0 +1,102 @@
+﻿/*主页的制作*/
+table,td,tr,img,ul,li{ border-style: none;
+    border-width: 0px;
+    margin: 0;
+    padding: 0;
+   
+}
+/*body>div { margin-left:auto; margin-right:auto;}*/
+body { background-color:#E3EFFF;
+}
+#box { width:1000px; margin-left:auto; margin-right:auto; background-color:#E3EFFF; height:690px;
+}
+#top { width:980px; height:60px; margin-top:5px; font-size:12px; color:blue; line-height:20px; float:left; border-bottom:solid 4px blue; padding-left:10px; padding-right:10px; padding-top:10px;
+}
+
+#middle{ width:1000px; float:left; height:500px;  margin-top:10px; border-bottom:solid 4px blue;
+}
+/*登录部分*/
+    #middle #left { width:400px; height:300px; float:left; margin-top:40px; margin-left:20px;
+    }
+#left .top1 { width:400px; height:30px; font-size:14px; color:blue; font-weight:bold; line-height:30px; text-indent:10px;
+}
+#left .main { width:380px; height:250px; font-size:12px; color:blue; line-height:20px; padding:10px; position:absolute;
+}
+    #middle #login { width:300px; height:200px; border-radius:5px; position:relative; top:100px; background-color:#5C79F4; float:left; left:150px;
+    }
+#login .top2 { width:300px; height:30px; border-bottom:solid 2px blue; line-height:28px; float:left; text-indent:10px; float:left;
+}
+#login .con1 { width:300px; height:168px; float:left;
+}
+.con1 table { width:98%; height:98%; float:left; font-size:12px;
+}
+#login a { text-decoration:none; font-size:12px; font-family:'Microsoft YaHei'; color:Blue; 
+}
+    #login a:hover { text-decoration:underline; font-size:12px; font-family:'Microsoft YaHei'; color:red; 
+    }
+
+/*底部制作*/
+#bottom { width:1000px; height:180px;  margin-top:20px; position:relative; float:left; margin-top:0px;
+}
+#bottom .b_top { width:800px; height:90px; position:absolute; top:20px; left:100px; line-height:30px; font-size:12px; text-align:center;
+}
+.b_top a { color:#333; text-decoration:none;
+}
+    .b_top a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+.b_con { width:370px; height:50px; position:absolute; top:115px; left:320px;
+}
+    .b_con img { width:100px; height:40px; margin-left:10px;
+    }
+    .b_con a { text-decoration:none; border:0; color:#fff;
+    }
+.zt1 { font-size:22px; font-weight:bold; color:blue; font-family:'Microsoft YaHei';
+}
+.zt2 { font-size:12px; font-family:'Microsoft YaHei'; color:Blue;
+}
+.zt3 { font-size:16px; font-weight:bold; color:blue; font-family:'Microsoft YaHei';
+}
+.zt4 { font-size:14px; font-family:'Microsoft YaHei'; color:Blue; font-weight:bold;
+}
+.zt5 { font-size:12px; font-family:'Microsoft YaHei'; color:Blue; font-weight:bold;
+}
+.zt6 { color:red;
+}
+
+/*此部分用于用户注册*/
+#middle #reg { width:600px; height:480px; margin-left:200px; margin-right:200px; margin-top:5px; background-color:#a6b6ea;
+}
+#reg .top3 { width:600px; height:30px; line-height:30px; text-indent:20px; border-bottom:solid 2px blue;
+}
+#reg .con1 { width:600px; height:450px; font-size:12px; color:blue; overflow:hidden;
+}
+.con1 table { width:98%; height:98%;
+}
+.syzt1 { font-size:14px; font-weight:bold; color:blue;
+}
+
+#reg .con2 { width:600px; height:450px; font-size:12px; color:blue; overflow:hidden;
+}
+/*修改个人资料*/
+.con2 ul { width:600px; height:430px; 
+}
+.con2 li { list-style-type:none;
+}
+    .con2 li.lx1 { width:200px; float:left; height:30px; text-align:right; line-height:30px;
+    }
+    .con2 li.lx2 { width:200px; float:left; height:30px; line-height:30px; text-align:left;
+    }
+    .con2 li.lx3 { width:200px; float:left; height:30px; text-align:left; line-height:30px;
+    }
+     .con2 li.lx4 { width:600px; float:left; height:50px; text-align:center; line-height:50px;
+    }
+/*找回密码*/
+#reg .con3 { width:600px; height:400px; font-size:12px; color:blue; overflow:hidden; position:relative; 
+}
+.con3 .zmm { position:absolute; width:300px; height:200px; top:100px; left:150px; overflow:hidden;
+}
+.zmm table { width:300px; height:200px;
+}
+

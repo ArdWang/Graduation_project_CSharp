@@ -1,0 +1,41 @@
+﻿
+.left { width:200px; height:500px;
+}
+    .left .l_top { height:30px; width:200px; font-size:14px; font-weight:bold; text-indent:10px; line-height:30px; border-bottom:solid 1px #999; color:#444;
+    }
+    .left .l_con { width:180px; height:450px; margin:10px;
+    }
+.l_con ul{ width:180px; height:450px;}
+.l_con li{ width:180px; float:left; height:30px; line-height:30px; list-style-type:none; font-size:12px; text-align:center; font-weight:bold;}
+.l_con li a{ text-decoration:none; color:#555;}
+.l_con li a:hover{ color:Red;}
+.right { width:780px; height:500px;
+}
+.right .r_con{ width:760px;height:180px; margin:10px; font-size:12px; line-height:30px; color:#555; float:left;}
+.r_con table{ width:760px; height:180px; overflow:hidden;}
+.r_con table a{ color:#333; text-decoration:none; font-size:12px;}
+.r_con table a:hover{ color:Red;}
+.r_con  th{ font-size:12px; height:30px;}
+.r_con  td{ font-size:12px; text-align:center;}
+.r_con .t1{ width:100px; height:80px;}
+.r_con .t2{ width:100px; height:80px;}
+.r_con .t11{ width:50px; height:80px; }
+.r_con .t12 { width:40px; height:80px;
+}
+.right .r_con1 { width:760px; height:200px; margin:10px; float:left;
+}
+.r_con1 .rc_top1 { width:760px; height:30px; line-height:30px; font-weight:bold; background-color:#aaa; text-indent:20px;
+}
+.r_con1 .rc_con1 { width:760px; height:170px; overflow:auto;
+}
+.rc_con1 ul{width:630px; margin-left:10px;
+}
+.rc_con1 li { list-style-type:none; width:300px; height:30px; float:left; font-size:12px; line-height:30px; color:#222;
+}
+   
+
+.right .db { width:760px; height:30px; line-height:30px; font-size:12px; text-align:right;
+}
+
+/*注册用户添加块*/
+

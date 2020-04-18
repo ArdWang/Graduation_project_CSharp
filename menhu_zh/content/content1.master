@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="content1.master.cs" Inherits="content_content1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>会员资讯</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        <link href="css/content.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div id="box">
+        <div class="head">
+            <div class="h_left1">
+               <ul>
+                   <li><span class="hzt1">尊敬的</span>&nbsp;<span class="hlzt1"><asp:Label ID="lbname" runat="server" Text=""></asp:Label></span>&nbsp;<span class="hzt1">欢迎你的到来！</span>&nbsp;&nbsp;&nbsp;<asp:LinkButton ID="lbtnexit" runat="server" OnClick="lbtnexit_Click">退出</asp:LinkButton></li>
+               </ul>
+           </div>
+           <div class="h_right"><a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://localhost/sy_shouye.aspx');" href="#">设为首页</a>&nbsp;<span class="wz1">|</span>&nbsp;<a href="#">收藏本站</a>&nbsp;<span class="wz1">|</span>&nbsp;<a href="#">网站导航</a>&nbsp;&nbsp;</div>
+        </div>
+        <div class="redian">
+           <ul>
+               <li class="l4">资讯</li>
+               <li class="l2">
+                   <a href="sy_newsxy.aspx" target="_blank">新闻</a>
+                   <a href="sy_xiaoy_vip.aspx" target="_blank">校园</a>
+                   <a href="sy_yule_vip.aspx" target="_blank">娱乐</a>
+                   <a href="sy_tiyu_vip.aspx" target="_blank">体育</a>
+                   <a href="sy_game_vip.aspx" target="_blank">游戏</a>
+                   <a href="sy_qiche_vip.aspx" target="_blank">汽车</a>
+               </li>
+               <li class="l1">生活</li>
+               <li class="l2">
+                   <a href="sy_keji_vip.aspx" target="_blank">科技</a>
+                   <a href="#" target="_blank">健康</a>
+                   <a href="#" target="_blank">旅游</a>
+                   <a href="#" target="_blank">商城</a>
+                   <a href="#" target="_blank">时尚</a>
+                   <a href="#" target="_blank">美食</a>
+               </li>
+               
+               <li class="l1">电影</li>
+               <li class="l2">
+                   <a href="#" target="_blank">大地</a>
+                   <a href="#" target="_blank">大从</a>
+                   <a href="#" target="_blank">青年</a>
+                   <a href="#" target="_blank">1.75</a>
+                   <a href="#" target="_blank">广电</a>
+                   <a href="#" target="_blank">咨询</a>
+               </li>
+               <li class="l1">互动</li>
+               <li class="l3">
+                   <a href="#" target="_blank">论坛</a>
+                   <a href="#" target="_blank">微博</a>
+                   <a href="#" target="_blank">学习</a>  
+               </li>
+               <li class="l1">广告</li>
+               <li class="l5">
+                   <a href="http://www.shaoyangw.com/portal.php?mod=view&aid=2"><img src="images/gg/gg4.png" alt="深圳市易达科技有限公司" /></a>
+               </li>
+               <li class="l6">
+                   <a href="http://www.0739i.com.cn/"><img src="images/gg/gg6.png" alt="邵阳资讯网" /></a>
+               </li>
+           </ul>
+       </div>
+        <div class="main">
+            <div class="m_left">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="m_right">
+               <div class="r_top">
+                  <ul>
+                     <li style=" text-align:right;">站内搜索：</li><li>
+                         <asp:TextBox ID="TextBox1" runat="server" Width="100px" Height="20px"></asp:TextBox></li>
+                     <li style=" text-align:center;">
+                         <asp:Button ID="btnserach" runat="server" Text="搜索" Width="60px" Height="25px" /></li>
+                  </ul>
+               </div>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+                 
+                </asp:ContentPlaceHolder>
+            </div>
+       </div>
+       <div class="bottom">
+              <div class="b_top"><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">友情链接</a>|<a href="#">客服邮箱</a>|客服热线：0739-111111|客服QQ：***<br/>Copyright© 2015　dqccc.com. All Rights Reserved<br/>版权所有  W蓝科技  湘ICP证04322号  湘ICP备43222211号</div>
+              <div class="b_con">
+                  <a href="http://net.china.com.cn/" target="_blank"><img src="../images/db/db_bl.png" /></a>
+                  <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"><img src="../images/db/db_wj.png" /></a>
+                  <a href="http://www.wenming.cn/wmpl_pd/yczl/201506/t20150629_2701547.shtml" target="_blank"><img src="../images/db/db_cb.png" /></a>
+              </div>
+          </div>
+    </div>
+    </form>
+</body>
+</html>
